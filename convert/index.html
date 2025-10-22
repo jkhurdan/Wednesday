@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM & IN Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Millimeter ($\text{mm}$) & Inch ($\text{in}$) Converter</h1>
+        <p>Enter a value in either field to get the conversion.</p>
+
+        <div class="input-group">
+            <label for="mmInput">Millimeters ($\text{mm}$)</label>
+            <input type="number" id="mmInput" placeholder="Enter mm value">
+        </div>
+
+        <div class="input-group">
+            <label for="inInput">Inches ($\text{in}$)</label>
+            <input type="number" id="inInput" placeholder="Enter in value">
+        </div>
+
+        <p class="conversion-info">
+            *Conversion Factor: $1 \text{ inch} = 25.4 \text{ mm}$
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
